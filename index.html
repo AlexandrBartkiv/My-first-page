@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+                    <nav class="nav">
+                        <ul>
+                            <li><a id="about">About</a></li>
+                            <li><a id="projects">Projects</a></li>
+                            <li><a id="contacts">Contacts</a></li>
+                        </ul>
+                    </nav>
+                <div class="name">
+                   <p id="h1_1">Alexandr</p> <span id="h1_2">Bartkiv</span>
+                    <p id="front">Front end developer</p>
+                    
+                </div>  
+        </div>
+        <main>
+            <a href="" id="a"><img src="./img/up.png" alt="up" class="up"></a>
+        <div class="about">
+            <div class="aboutme"><h1>ABOUT <span>ME</span></h1></div>
+                   <div class="photo">
+                    <div class="img"></div>
+                   </div> 
+                <div class="aboutskills">
+                 
+                    <div class="info">I am Alexandr Bartkiv and I am a Web Developer located in Kyiv, Ukraine. 
+                        I am looking to take a job and increase my skills as a Web Developer.
+                    </div>
+                 
+                    <div class="skillswrapper">
+                        <div class="skills">
+                            <div>JS(ES6)</div>
+                            <div>HTML5</div>
+                            <div>CSS3(Scss)</div>
+                            <div>SQL (basic)</div>
+                            <div>jQuery</div>
+                            <div>Vue.js</div>
+                            <div>Vue.CLI</div>
+                            <div>Ajax</div>
+                            <div>GIT</div>
+                        </div>
+                    </div>   
+                </div> 
+        </div>
+        <div class="projects">
+                <h1>My projects</h1>
+                <div class="projects_wraper">
+                    <div id="toDo">
+                        <a href="https://alexandrbartkiv.github.io/spa/#/home"><img src="./img/ToDo.png" alt="ToDoList" class="ToDo"></a>
+                    </div>
+                    <div id="lister">
+                        <a href="https://alexandrbartkiv.github.io/lister/index.html"><img src="./img/Lister.png" alt="Lister" class="Lister"></a>
+                    </div>
+                    <div id="lister">
+                        <a href="https://alexandrbartkiv.github.io/buses/index.html"><img src="./img/buses.png" alt="buses" class="Lister"></a>
+                    </div>
+                    <div id="lister">
+                        <a href="https://alexandrbartkiv.github.io/buses/results.html"><img src="./img/buses2.png" alt="buses" class="Lister"></a>
+                    </div>
+                    <div id="lister">
+                        <a href="https://alexandrbartkiv.github.io/Landos-master/index.html"><img src="./img/design.png" alt="buses" class="Lister"></a>
+                    </div>
+                </div>
+        </div>
+            <div class="contacts">
+                <div class="contacts1">
+                    <h1>LIKE WHAT YOU SEE?</h1>
+                    <p>You can tap this button to see a cute kitty!!</p>
+                    <input type="button" value="RUN" class="button1">
+                </div>
+                <div class="contacts2">
+                    <h2>CONTACTS</h2>
+                    <p>+380-96-080-11-11</p>
+                    <a href="https://t.me/git Allaudi" class="telega"><img src="./img/telegram-64x64.png" alt="telegram"></a>
+                    <a href="http://linkedin.com/in/alexandr-bartkiv-1875581a0" class="linkedin"><img src="img\iconmonstr-linkedin-3-32.png" alt="linkedin" ></a>
+                </div>
+                <div class="form">
+                    <form id="my-form"
+                        action="https://formspree.io/xdolkbzk"
+                        method="POST"
+                        >
+                        <input type="email" name="email" class="mail" placeholder=" Email:" />
+                        <input type="text" name="message" class="message" placeholder=" Enter your message" />
+                        <button id="my-form-button">Send</button>
+                        <p id="my-form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2542/jquery.scrollie.min_1.js"></script>  
+    <script src="indedx.js"></script>
+</body>
+</html>

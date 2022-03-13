@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{display: flex;
+    background: cornflowerblue;
+}
+.test{
+    position: relative;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: white;
+    border:1px white solid;
+    border-radius: 7px 0px 7px 7px;
+    height: 700px;
+    width: 700px;
+}
+h1{
+    width: min-content;
+    margin-left:30px ;
+    margin-top: 50px;
+}
+#name{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#name button{
+    margin-left: 70px;
+    
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+}
+button:hover {
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    }
+button:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+#list{
+    
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 423px;
+}
+#list p {
+    width: 100%;
+}
+#list output{
+    display: block;
+    height: 400px;
+    width: 400px;
+    border: 1px solid grey;
+}
+#list button{
+    margin-left: 70px;
+    
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+    transition: all .218s ease 0s;
+}
+button:hover {
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    }
+button:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}   
+#buttons{
+    position: relative;
+    left: 400px;
+    bottom: 402px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    
+}
+#buttons button{
+    margin-top: 20px;
+    position: relative;
+    right: 20px;
+}
+
+img{
+    display: none;
+    width: 350px;
+    position: relative;
+    bottom: 300px;
+    left: 58px;
+}
+
+
+@media (max-width:375px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    body{
+        display: flex;
+        background: cornflowerblue;
+    }
+    .test{
+        position: relative;
+        top: 40px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        background: white;
+        border:1px white solid;
+        border-radius: 7px 0px 7px 7px;
+        height: 675px;
+        width: 325px;
+    }
+    h1{
+        width: min-content;
+        margin-left:30px ;
+        margin-top: 50px;
+    }
+    #name{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    #name button{
+        margin-left: 8px;
+        
+        display: inline-block;
+        font-family: arial,sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: rgb(68,68,68);
+        text-decoration: none;
+        user-select: none;
+        padding: .2em 1.2em;
+        outline: none;
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: 2px;
+        background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+        transition: all .218s ease 0s;
+    }
+        button:hover {
+        color: rgb(24,24,24);
+        border: 1px solid rgb(198,198,198);
+        background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+        box-shadow: 0 1px 2px rgba(0,0,0,.1);
+          }
+        button:active {
+        color: rgb(51,51,51);
+        border: 1px solid rgb(204,204,204);
+        background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+        box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+        }
+          
+    
+    #list{
+        margin-left: 30px;
+        margin-top: 20px;
+        height: 423px;
+    }
+    #list p {
+        width: 100%;
+    }
+    #list output{
+        display: block;
+        height: 400px;
+        width: 165px;
+        border: 1px solid grey;
+    }
+    #list button{
+        margin-left: 70px;
+        display: inline-block;
+        font-family: arial,sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: rgb(68,68,68);
+        text-decoration: none;
+        user-select: none;
+        padding: .2em 1.2em;
+        outline: none;
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: 2px;
+        background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+        transition: all .218s ease 0s;
+    }
+    button:hover {
+        color: rgb(24,24,24);
+        border: 1px solid rgb(198,198,198);
+        background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+        box-shadow: 0 1px 2px rgba(0,0,0,.1);
+        }
+    button:active {
+        color: rgb(51,51,51);
+        border: 1px solid rgb(204,204,204);
+        background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+        box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+    }   
+    #buttons{
+        position: relative;
+        left: 130px;
+        bottom: 402px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        width: 175px;
+        
+    }
+    #buttons button{
+        margin-top: 20px;
+        position: relative;
+        right: 20px;
+        }
+    img{
+        display: none;
+        width: 200px;
+        position: relative;
+        bottom: 300px;
+        left: 45px;
+    }
+}
+@media (max-width:414px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    body{display: flex;
+        background: cornflowerblue;
+    }
+    .test{
+        position: relative;
+        top: 40px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        background: white;
+        border:1px white solid;
+        border-radius: 7px 0px 7px 7px;
+        height: 680px;
+        width: 380px;
+    }
+    h1{
+        width: min-content;
+        margin-left:30px ;
+        margin-top: 50px;
+    }
+    #name{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    #name input{
+        width: 260px;
+    }
+    #name button{
+        margin-left: 15px;
+        
+        display: inline-block;
+        font-family: arial,sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: rgb(68,68,68);
+        text-decoration: none;
+        user-select: none;
+        padding: .2em 1.2em;
+        outline: none;
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: 2px;
+        background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+        transition: all .218s ease 0s;
+    }
+        button:hover {
+        color: rgb(24,24,24);
+        border: 1px solid rgb(198,198,198);
+        background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+        box-shadow: 0 1px 2px rgba(0,0,0,.1);
+          }
+        button:active {
+        color: rgb(51,51,51);
+        border: 1px solid rgb(204,204,204);
+        background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+        box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+        }
+          
+    
+    #list{
+        
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    #list p {
+        width: 100%;
+    }
+    #list output{
+        display: block;
+        height: 400px;
+        width: 225px;
+        border: 1px solid grey;
+    }
+    #list button{
+        margin-left: 70px;
+        
+        display: inline-block;
+        font-family: arial,sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: rgb(68,68,68);
+        text-decoration: none;
+        user-select: none;
+        padding: .2em 1.2em;
+        outline: none;
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: 2px;
+        background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+        transition: all .218s ease 0s;
+    }
+        button:hover {
+        color: rgb(24,24,24);
+        border: 1px solid rgb(198,198,198);
+        background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+        box-shadow: 0 1px 2px rgba(0,0,0,.1);
+          }
+        button:active {
+        color: rgb(51,51,51);
+        border: 1px solid rgb(204,204,204);
+        background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+        box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+        }   
+        #buttons{
+            position: relative;
+            left: 187px;
+            bottom: 402px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            width: 175px;
+            
+        }
+        #buttons button{
+            margin-top: 20px;
+            position: relative;
+            right: 20px;
+        }
+        img{
+            display: none;
+            width: 200px;
+            position: relative;
+            bottom: 300px;
+            left: 45px;
+        }
+       
+}
+@media (max-width:360px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    body{display: flex;
+        background: cornflowerblue;
+    }
+    .test{
+        position: relative;
+        top: 40px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        background: white;
+        border:1px white solid;
+        border-radius: 7px 0px 7px 7px;
+        height: 675px;
+        width: 325px;
+    }
+    h1{
+        width: min-content;
+        margin-left:30px ;
+        margin-top: 50px;
+    }
+    #name{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    #name button{
+        margin-left: 8px;
+        
+        display: inline-block;
+        font-family: arial,sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: rgb(68,68,68);
+        text-decoration: none;
+        user-select: none;
+        padding: .2em 1.2em;
+        outline: none;
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: 2px;
+        background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+        transition: all .218s ease 0s;
+    }
+        button:hover {
+        color: rgb(24,24,24);
+        border: 1px solid rgb(198,198,198);
+        background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+        box-shadow: 0 1px 2px rgba(0,0,0,.1);
+          }
+        button:active {
+        color: rgb(51,51,51);
+        border: 1px solid rgb(204,204,204);
+        background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+        box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+        }
+          
+    
+    #list{
+        
+        margin-left: 30px;
+        margin-top: 20px;
+        height: 423px;
+    }
+    #list p {
+        width: 100%;
+    }
+    #list output{
+        display: block;
+        height: 400px;
+        width: 165px;
+        border: 1px solid grey;
+    }
+    #list button{
+        margin-left: 70px;
+        
+        display: inline-block;
+        font-family: arial,sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        color: rgb(68,68,68);
+        text-decoration: none;
+        user-select: none;
+        padding: .2em 1.2em;
+        outline: none;
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: 2px;
+        background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+        transition: all .218s ease 0s;
+    }
+        button:hover {
+        color: rgb(24,24,24);
+        border: 1px solid rgb(198,198,198);
+        background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+        box-shadow: 0 1px 2px rgba(0,0,0,.1);
+          }
+        button:active {
+        color: rgb(51,51,51);
+        border: 1px solid rgb(204,204,204);
+        background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+        box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+        }   
+        #buttons{
+            position: relative;
+            left: 130px;
+            bottom: 402px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            width: 175px;
+            
+        }
+        #buttons button{
+            margin-top: 20px;
+            position: relative;
+            right: 20px;
+        }
+        img{
+            display: none;
+            width: 150px;
+            position: relative;
+            bottom: 300px;
+            left: 38px;
+        }
+}
